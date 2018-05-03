@@ -6,7 +6,7 @@
 (def sum2 0)
 
 (defn readFile [fileName]
-	(with-open [rdr (clojure.java.io/reader (str "/Users/jeet/Dropbox/_UMKC/SPRING 2018/CS 441/Clojure Project/" fileName ".txt"))](clojure.string/join "\n" (line-seq rdr))))
+	(with-open [rdr (clojure.java.io/reader (str "/Users/jeet/Workspace/Clojure_projects/cs-441-coin-game/resources/" fileName ".txt"))](clojure.string/join "\n" (line-seq rdr))))
 
 (defn convertStringToList [numbers]
 	(drop 1 (map #(Integer/parseInt %)(cstr/split numbers #" "))))
