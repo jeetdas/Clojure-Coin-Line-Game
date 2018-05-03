@@ -3,8 +3,12 @@
 A simple 2-player game played as follows: An even number of coins is laid out in a row.
 Taking turns, each player removes the coin on one of the ends of the row. The object is to have the
 highest value in coins when all coins have been taken. Note that a greedy strategy of taking the largestvalue
-end coin is not sufficient. Consider this situation:
-5 25 10 1
+end coin is not sufficient.
+
+Consider this situation:
+
+5, 25, 10, 1
+
 In this case, the player should take the 1 on the right end; after the opponent takes either the 5 or the 10,
 the player is guaranteed to get the 25. Simply taking the 5 “because it’s bigger” will result in the
 biggest coin going to the other player.
