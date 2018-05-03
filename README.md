@@ -19,7 +19,9 @@ biggest coin going to the other player.
 ## Usage
 
 Install Lein (https://gist.github.com/technomancy/2395913)
+
 There are two text files, one with 10 numbers to test the algorithm and one with 10,000 numbers to run the program on.
+
 To run: 'lein run' from project directory
 
 ## License
