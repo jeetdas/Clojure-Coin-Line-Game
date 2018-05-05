@@ -17,7 +17,7 @@ biggest coin going to the other player.
 
 1. If there are an even number of coins: Find the sum of all of the even-numbered coins, and all the odd-numbered coins. If the sum of the odd numbered coins is higher, take the leftmost coin; otherwise take the rightmost.
 
-2. If there are an odd number of coins: Picking a coin from either end can only affect the sum of the odd numbered coins, so pick the higher valued coin to minimize winning value of the other player.
+2. Minimize loss/maximize gain by evaluating every single possiblity of running the application after either taking the first or the last coin (Implementation choppy and doesn't work well on large data sets).
 
 
 ## Usage
@@ -26,7 +26,9 @@ Install Lein (https://gist.github.com/technomancy/2395913)
 
 There are two text files, one with 10 numbers to test the algorithm and one with 10,000 numbers to run the program on.
 
-To run: 'lein run' from project directory
+To run: 'lein run filePath' from project directory
+
+Example: lein run '/Users/jeet/Workspace/Clojure_projects/cs-441-coin-game/resources/10.txt'  
 
 ## License
 
