@@ -1,4 +1,4 @@
-# Coin Toss Game
+# Coin Line Game
 
 A simple 2-player game played as follows: An even number of coins is laid out in a row.
 Taking turns, each player removes the coin on one of the ends of the row. The object is to have the
